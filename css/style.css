@@ -1,4 +1,70 @@
+/*Універсальний *{
+    color: blue;
+} */
+
+/*  */
+
+/* Теговый селектор */
+body{
+font-size: 14px;
+}
+
 a{
-    text-decoration: none;
-    
+text-decoration: none;
+font-size: 30px;  
+}
+
+/* Селектор класу */
+/* Футер */
+ .footer{
+    background-color: black;
+} 
+
+.footer-logo{
+    color: wheat;
+} 
+
+/* Селектор ідентифікатора */
+#selectors-tex{
+    color: brown;
+}
+
+/* Селектор груп */
+.footer-tex,
+.footer-link{
+ color: azure;
+}
+
+/* Селектор атрибуту */
+button[type=button]{
+    color: blue;
+    background-color: rgba(112, 205, 82, 0.575);
+    border: none;
+    border-radius: 4px;
+}
+
+/* Селектор нащадку */
+.header a{
+    color: red;
+}
+
+/* Дочірний селектор */
+.header > .header-button{
+   background-color: green; 
+}
+
+/* Сусідній селектор */
+
+header+main {
+background-color: rgba(255, 215, 0, 0.5);
+}
+
+/* Споріднений селектор */
+main~article {
+ background-color: green;
+}
+
+/* прозорість */
+.selectors-title{
+    color: rgba(0, 0, 0, 0.6);
 }

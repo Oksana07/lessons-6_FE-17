@@ -22,16 +22,20 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
             <ul>
                 <li><a href="">Способи використання стилів</a></li>
                 <li><a href="">CSS селектори</a></li>
             </ul>
         </nav>
-        <button type="button">Увійти</button>
+        <button class="header-button" type="button">Увійти</button>
     </header>
     <main>
+        <article class="">
+            <h3>Довідник стилів</h3>
+            <a href="https://cssreference.io" title="Довідник стилів"> cssreference.io </a>
+        </article>
         <!-- Тема уроку -->
         <section>
             <h1>CSS. Способи використання стилів. CSS селектори</h1>
@@ -43,26 +47,22 @@
 
         </section>
         <!-- Селектори -->
-        <section>
-            <h2>CSS селектори</h2>
-            <a href="https://uk-ua.facebook.com/">facebook</a>
+        <section class="selectors">
+            <h2 class="selectors-title">CSS селектори</h2>
+            <a href="https://uk-ua.facebook.com/" class="selectors-link">facebook</a>
             <div>
                 <h3>Lorem, ipsum.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, unde.</p>
+                <p id="selectors-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, unde.</p>
             </div>
-
-            <article>
-                <h3>Довідник стилів</h3>
-                <a href="https://cssreference.io" title="Довідник стилів"> cssreference.io </a>
-            </article>
         </section>
     </main>
-    <footer>
-        <a href="">logo</a>
-        <p>права захищені</p>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+    <!--footer -->
+    <footer class="footer">
+        <a class="footer-logo" href="">logo</a>
+        <p class="footer-tex">права захищені</p>
+        <ul class="footer-list">
+            <li class="footer-item"><a href="" class="footer-link">телефон</a></li>
+            <li class="footer-item"><a href="" class="footer-link">пошта</a></li>
         </ul>
     </footer>
 </body>
