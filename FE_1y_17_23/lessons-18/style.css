@@ -1,0 +1,8 @@
+.box{
+width: 640px;
+height: 427px;
+ background-image:url(./images/man-2.webp),url(./images/girl.webp),url(./images/man-1.webp) ,url(./images/img.jpeg); 
+ background-repeat: no-repeat;
+ background-size: 70px, 100px, contain, cover;
+ background-position: right 20% ,left 30% top 30%,right, center;
+}
