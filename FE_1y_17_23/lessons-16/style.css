@@ -1,0 +1,61 @@
+li{
+  list-style: none;
+}
+
+
+/* псевдоелементи */
+.item{
+display: flex;
+align-items: center;
+margin: 30px;
+}
+
+.item::after{
+ content: ' '; 
+ background-image: url(./bool.jpg);
+ background-size: contain;
+ width: 40px;
+ height: 40px;
+ display: none;
+}
+
+.item:hover::after{
+display: block;
+cursor: pointer;
+}
+
+.item::before {
+  content: ' ';
+  /* background-image: url(./bool.jpg); */
+  /* background-size: contain; */
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* display: none; */
+}
+
+.item:hover::before{
+  background-color: red;
+  /* display: block; */
+  cursor: pointer;
+}
+
+/* виділення тексту */
+::selection{
+ background-color: palevioletred; 
+ color: blue;
+}
+ 
+/* для виділення першої літери */
+.text::first-letter{
+  font-size: 32px;
+  font-style: italic;
+  color: red;
+}
+
+/* для виділення першого рядка в елементі */
+.text::first-line{
+  font-size: 24px;
+  color: green;
+}
